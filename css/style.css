@@ -372,7 +372,7 @@ img{
     background-image:url(../image/bgGoal.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: auto;
+    background-size: cover;
     margin: 50px auto;
     position: relative;
     overflow: hidden;
