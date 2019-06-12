@@ -373,6 +373,7 @@ img{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 1200px;
+    height: 250px;
     margin: 50px auto;
     position: relative;
     overflow: hidden;
@@ -671,6 +672,7 @@ img{
     .goal {
         background-size: cover;
         margin: 120px auto;
+        height: unset;
     }
     .goalCount {
         width: 80%;
