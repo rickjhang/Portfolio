@@ -619,6 +619,9 @@ img{
     .smTitle h3,.mockupTitle h3{
         font-size: 24px;
     }
+    .survey,.persona,.mockup{
+        overflow: -webkit-paged-x;
+    }
     .surveyTitle{
         width: 70%;
         margin: auto;
