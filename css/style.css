@@ -371,9 +371,8 @@ img{
 .goal{
     background-image:url(../image/bgGoal.png);
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: top left;
-    background-size: 1200px;
+    background-size: 900px;
     height: 250px;
     margin: 50px auto;
     position: relative;
@@ -674,6 +673,7 @@ img{
         background-size: cover;
         margin: 120px auto;
         height: unset;
+        background-attachment: fixed;
     }
     .goalCount {
         width: 80%;
