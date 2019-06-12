@@ -324,7 +324,7 @@ img{
     color: #0f0f0f;
 }
 .survey,.persona,.mockup{
-    overflow: auto;
+    overflow: -webkit-paged-x;
 }
 .surveyTitle{
     text-align: center;
@@ -618,9 +618,6 @@ img{
     .appForeword h3,.personaTitle h3,
     .smTitle h3,.mockupTitle h3{
         font-size: 24px;
-    }
-    .survey,.persona,.mockup{
-        overflow: -webkit-paged-x;
     }
     .surveyTitle{
         width: 70%;
