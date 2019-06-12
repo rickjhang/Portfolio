@@ -372,6 +372,7 @@ img{
     background-image:url(../image/bgGoal.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: top left;
     background-size: 1200px;
     height: 250px;
     margin: 50px auto;
