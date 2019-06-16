@@ -21,7 +21,7 @@ h3{
     color:#0f0f0f;
     line-height: 1.6em;
     font-family: 微軟正黑體;
-    font-size: 18px;
+    font-size: 20px;
 }
 h4{
     color:#0f0f0f;
@@ -282,7 +282,7 @@ img{
     width: 90%;
     padding-top: 10px;
 }
-.aboutMeCount h3{
+.aboutMeTitle h2,.aboutMeCount h3{
     color: #fff;
 }
 .pro,.future{
@@ -321,7 +321,7 @@ img{
     text-align: center;
 }
 .appForeword h2{
-    font-size: 18px;
+    font-size: 20px;
 }
 .survey,.persona,.mockup,.interface{
     overflow: auto;
@@ -334,7 +334,7 @@ img{
     margin: auto;
 
 }
-.surveyTitle h4{
+.surveyTitle h3{
     padding: 10px 0;
 }
 .surveyReel{
@@ -473,7 +473,7 @@ img{
     width: 90%;
     margin: auto;
 }
-.kaTitle h4{
+.kaTitle h3{
     padding: 20px 0 30px;
 }
 .kaImg{
@@ -536,7 +536,7 @@ img{
         font-size: 2.3vw;
     }
     h3{
-        font-size: 1.5vw;
+        font-size: 1.8vw;
     }
     h4{
         font-size: 1.5vw;
@@ -637,7 +637,7 @@ img{
         margin: 200px auto 110px;
     }
     .pjTitle h3{
-        font-size: 24px;
+        font-size: 20px;
     }
     .pjItem {
         width: 75%;
@@ -701,7 +701,7 @@ img{
         font-size: 24px;
     }
     .personaTitle h3,.smTitle h3,.mockupTitle h3{
-        font-size: 18px;
+        font-size: 20px;
     }
     .surveyTitle{
         width: 70%;
@@ -711,7 +711,7 @@ img{
         font-size: 24px;
     }
     .surveyTitle h3{
-        font-size: 18px;
+        font-size: 20px;
         padding: 20px 0;
     }
     .survey, .persona, .mockup {
@@ -819,9 +819,9 @@ img{
         font-size: 24px;
     }
 
-    .kaTitle h4 {
+    .kaTitle h3 {
         padding: 40px 0 90px;
-        font-size: 16px;
+        font-size: 18px;
         width: 60%;
         margin: auto;
     }
@@ -852,14 +852,14 @@ img{
         flex: 1;
         margin-left: 50px;
     }
-    /* .dpColorDetail h3,.dpFontDetail h3{
-        font-size: 18px;
+    .dpColorDetail h3,.dpFontDetail h3{
+        font-size: 20px;
     }
     .dpColorDetail h4,.dpFontDetail h4{
         font-size: 16px;
-    } */
+    }
     .interfaceTitle h3{
-        font-size: 18px;
+        font-size: 20px;
     }
     .interface{
         padding-bottom: 50px;
