@@ -216,13 +216,15 @@ img{
     font-family: 微軟正黑體;
 }
 .bgFooter{
-    background-image: linear-gradient(180deg, #f5f5f5, #fff);
+    /* background-image: linear-gradient(180deg, #f5f5f5, #fff); */
+    background-color: #0f0f0f;
 }
 .ftTitle h2{
     font-size: 30px;
+    color: #fff;
 }
 .ftCount a p{
-    color: #0f0f0f;
+    color: #fff;
     font-size: 24px;
     margin-left: 10px;
     font-family: 微軟正黑體;
@@ -230,6 +232,10 @@ img{
 .ftCount a{
     display: flex;
     align-items: flex-end;
+    padding: 10px 0;
+}
+.ftCount p,.ftCount i{
+    color: #fff;
 }
 
 
@@ -240,10 +246,14 @@ img{
     margin: 110px auto 50px;
     text-align: center;
 }
+.pjTitle h3{
+    font-weight: bold;
+}
 .pjItem{
     width: 90%;
     margin: auto;
     text-align: center;
+    padding-bottom: 30px;
 }
 .itemImg{
     background-image: linear-gradient(45deg, #99c0c5, rgb(71, 204, 68));
@@ -286,6 +296,9 @@ img{
     width: 90%;
     padding-top: 10px;
 }
+.aboutMeTitle h2{
+    padding-top: 20px;
+}
 .aboutMeTitle h2,.aboutMeCount h4{
     color: #fff;
 }
@@ -293,7 +306,10 @@ img{
     width: 90%;
     margin: auto;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px 0 60px;
+}
+.pro{
+    padding: 60px 0 40px;
 }
 .proCount,.futureCount{
     padding-top: 10px;
@@ -541,7 +557,7 @@ img{
 .goKidBtn a,.goSnackBtn a{
     display: block;
     width: 70%;
-    margin: 60px auto;
+    margin: 50px auto 80px;
     border: 1px solid #0f0f0f;
     border-radius: 5px;
     padding: 20px 0;
@@ -742,6 +758,9 @@ img{
         align-items: flex-end;
         padding-bottom: 70px;
     }
+    .ftCount a{
+        padding: unset;
+    }
     .copyRight{
         font-size: 14px;
         text-align: unset;
@@ -791,6 +810,9 @@ img{
     .pro, .future {
         width: 70%;
     }
+    .pro {
+        padding: 40px 0 40px;
+    }
     .proCount,.futureCount{
         margin: auto;
         width: 100%;
@@ -798,9 +820,9 @@ img{
     .wite{
         box-shadow: 3px 3px 10px #aaa;
         width: 70%;
-        margin: 0 auto 50px;
+        margin: 0 auto 100px;
         background-color: #fff;
-        padding-bottom: 30px;
+        padding-bottom: 40px;
     }
     .appTitle {
         padding: 270px 0 180px;
@@ -1007,11 +1029,12 @@ img{
     }
     .goKidBtn a,.goSnackBtn a{
         width: 350px;
-        margin: 80px auto;
+        margin: 80px auto 120px;
         padding: 24px 0;
         letter-spacing: 2px;
         font-size: 24px;
         transition: .4s;
+        background-color: rgba(255,255,255,.5);
     }
     .goKidBtn a:hover,.goSnackBtn a:hover{
         background-color: #0f0f0f;
