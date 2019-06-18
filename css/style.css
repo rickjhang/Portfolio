@@ -563,6 +563,7 @@ img{
     padding: 20px 0;
     text-align: center;
     letter-spacing: 1px;
+    font-family: 微軟正黑體;
 }
 
 /* snack */
@@ -782,6 +783,7 @@ img{
     .itemAPP, .itemKid, .itemSnack {
         margin: 0 25px 50px;
         flex: 1;
+        transition: 1s;
     }
     .itemImg {
         height: 190px;
@@ -795,7 +797,8 @@ img{
     .itemAPP:hover .itemImg,
     .itemKid:hover .itemImg,
     .itemSnack:hover .itemImg{
-        outline: 1px solid #034769;
+        outline: 1px solid #000;
+        transition: 1s;
     }
     .about {
         width: 100%;
