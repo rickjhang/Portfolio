@@ -37,7 +37,7 @@ img{
 }
 .navItem li{
     font-family: Arial, Helvetica, sans-serif;
-    border-bottom:1px solid #ffffff;
+    border-bottom:1px solid #f5f5f5;
     padding: 30px 0;
 }
 .wrap{
@@ -45,7 +45,7 @@ img{
 }
 .nav{
     width: 90%;
-    padding-top: 20px;
+    padding: 20px 0 10px;
     margin: auto;
 }
 .bgNav{
@@ -167,8 +167,9 @@ img{
 }
 .goAPP a,.goKid a,.goSnack a{
     padding: 13px 0;
-    background-color: #17abf4;
-    border-radius: 10px;
+    border:1px solid #fff;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 5px;
     width: 70%;
     text-align: center;
     margin-top: 30px;
@@ -203,7 +204,10 @@ img{
     width: 90%;
     margin: auto;
     max-width: 1200px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+}
+.ftCount p{
+    padding-bottom: 2px;
 }
 .copyRight {
     font-size: 14px;
@@ -304,7 +308,7 @@ img{
 
 
 /* app */
-.appTitle,.kidTitle{
+.appTitle,.kidTitle,.snackTitle{
     width: 90%;
     margin: auto;
     text-align: center;
@@ -323,7 +327,9 @@ img{
 .appForeword h2{
     font-size: 20px;
 }
-.survey,.persona,.mockup,.interface{
+.survey,.persona,.mockup,
+.interface,.flow,.userStory,
+.interactive{
     overflow: auto;
     -webkit-overflow-scrolling: touch;
 }
@@ -332,14 +338,13 @@ img{
     padding-top: 30px;
     width: 90%;
     margin: auto;
-
 }
 .surveyTitle h3{
     padding: 10px 0;
 }
 .surveyReel{
     padding: 20px 0;
-    width: 1500px;
+    width: 1440px;
     display: flex;
 }
 .scItem{
@@ -350,25 +355,26 @@ img{
     width: 100%;
 }
 .svCount{
-    width: 100%;
-    padding: 20px 0;
+    padding: 20px 7px;
 }
-.personaTitle,.mockupTitle,.interfaceTitle{
+.personaTitle,.mockupTitle,
+.interfaceTitle,.userStoryTitle,
+.interactiveTitle{
     width: 90%;
     text-align: center;
     margin: auto;
     padding: 20px 0 10px;
 }
-.personaReel{
+.personaReel,.userStoryReel{
     padding: 20px 0;
     width: 1050px;
     display: flex;
 }
-.psItem{
+.psItem,.usItem{
     width: 30%;
     margin: 0 20px;
 }
-.psImg img{
+.psImg img,.usImg img{
     width: 100%;
 }
 .goal{
@@ -419,17 +425,17 @@ img{
 .muImg img{
     width: 60%;
 }
-.muCount,.ifCont{
+.muCount,.ifCont,.iaCont{
     width: 96%;
     padding: 20px 0;
     margin: auto;
     line-height: 1.6em;
 }
-.muCount li,.ifCont li{
+.muCount li,.ifCont li,.iaCont li{
     position: relative;
     font-family: 微軟正黑體;
 }
-.muCount li::before,.ifCont li::before{
+.muCount li::before,.ifCont li::before,.iaCont li::before{
     content: '';
     display: block;
     position: absolute;
@@ -453,30 +459,35 @@ img{
 
 
 /* kid */
-.kidTitle h2{
+.kidTitle h2,.snackTitle h2{
     letter-spacing: 3px;
     color: #fff;
+    padding-bottom: 40px;
 }
-.kidImg{
+.kidImg,.snackImg{
     margin: auto;
     width: 90%;
     padding: 50px 0;
+    position: relative;
+    height: 140px;
 }
-.kidImg img{
+.kidImg img,.snackImg img{
     width: 100%;
+    position: absolute;
+    top: -80px;
 }
-.kidAnalysis{
+.kidAnalysis,.snackUser,.snackSitemap{
     padding: 50px 0;
 }
-.kaTitle{
+.kaTitle,.suTitle,.ssTitle,.flowTitle,.ucTitle{
     text-align: center;
     width: 90%;
     margin: auto;
 }
-.kaTitle h3{
+.kaTitle h3,.suTitle h3,.ssTitle h3,.flowTitle h3{
     padding: 20px 0 30px;
 }
-.kaImg{
+.kaImg,.suImg,.ssImg{
     width: 100%;
     text-align: center;
 }
@@ -512,10 +523,9 @@ img{
 .dpDetail h3{
     font-weight: bold;
 }
-
 .interfaceReel{
     padding: 20px 0;
-    width: 1130px;
+    width: 1040px;
     display: flex;
 }
 .ifItem{
@@ -527,6 +537,110 @@ img{
 }
 .ifImg img{
     width: 100%;
+}
+.goKidBtn a,.goSnackBtn a{
+    display: block;
+    width: 70%;
+    margin: 60px auto;
+    border: 1px solid #0f0f0f;
+    border-radius: 5px;
+    padding: 20px 0;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+/* snack */
+.suImg img,.ssImg img{
+    width: 100%;
+}
+.flowTitle{
+    padding-top: 40px;
+}
+.flowReel{
+    padding-bottom: 50px;
+    width: 700px;
+    display: flex;
+}
+.flowImg{
+    width: 50%;
+    margin: 0 20px;
+}
+.flowImg img{
+    width: 100%;
+}
+.ucCont{
+    width: 90%;
+    margin: auto;
+}
+.ucDetail{
+    padding: 20px 0;
+}
+.ucImg{
+    padding: 10px 0;
+}
+.ucImg img{
+    width: 100%;
+}
+.useCase{
+    padding: 50px 0;
+}
+.userStoryTitle h2{
+    padding-top: 20px;
+}
+.userStoryTitle h3{
+    padding: 20px 0 10px;
+}
+.interactiveTitle h2{
+    padding: 20px 0 10px;
+}
+.snackGoal{
+    background-image: url(../image/bgSnackGoal.png);
+    background-position: -41px -184px;
+}
+.iaReel{
+    padding: 20px 0;
+    width: 2000px;
+    display: flex;
+}
+.iaItem{
+    width: 24%;
+    margin: 0 20px;
+}
+.iaImg img{
+    width: 100%;
+}
+.iaCont ul,.ifCont ul{
+    padding-left: 18px;
+}
+.ia1{
+    background-image: url(../image/interactive2.png);
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+.ia2{
+    background-image: url(../image/interactive4.png);
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+.ia3{
+    background-image: url(../image/interactive6.png);
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+.ia4{
+    background-image: url(../image/interactive8.png);
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+.ia5{
+    background-image: url(../image/interactive10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ia6{
+    background-image: url(../image/interactive12.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 @media screen and (min-width:768px){
     h1{
@@ -546,8 +660,6 @@ img{
     } 
     .nav{
         width: 96%;
-        padding-top: 20px;
-        margin:auto;
         display: flex;
         justify-content: space-between;
     }
@@ -566,10 +678,11 @@ img{
     }
     .navItem li:hover{
         border-bottom:1px solid #0f0f0f;
+        transition: .5s
     }
     .slogan{
         width: 96%;
-        margin: 170px auto 70px;
+        margin: 170px auto 90px;
     }
     .APP-count,.snack-count{
         width: 80%;
@@ -590,7 +703,9 @@ img{
         margin-top: 50px;
     }
     .goAPP a:hover,.goKid a:hover,.goSnack a:hover{
-        background-color: #034769;
+        background-color: #0f0f0f;
+        border: 1px solid #0f0f0f;
+        transition: .3s;
     }
     .APP-img{
         align-items: start;
@@ -612,7 +727,7 @@ img{
         width: 95%;
     }
     .goKid a{
-        width: 45%;
+        width: 40%;
     }
     .snack-img{
         padding: unset;
@@ -625,7 +740,7 @@ img{
         display: flex;
         justify-content: space-between;
         align-items: flex-end;
-        padding-bottom: 20px;
+        padding-bottom: 70px;
     }
     .copyRight{
         font-size: 14px;
@@ -687,10 +802,13 @@ img{
         background-color: #fff;
         padding-bottom: 30px;
     }
-    .appTitle,.kidTitle {
+    .appTitle {
         padding: 270px 0 180px;
     }
-    .appTitle h2,.kidTitle h2{
+    .kidTitle,.snackTitle{
+        padding: 270px 0 300px;
+    }
+    .appTitle h2,.kidTitle h2,.snackTitle h2{
         font-size: 36px;
     }
     .appForeword {
@@ -700,7 +818,8 @@ img{
     .appForeword h2{
         font-size: 24px;
     }
-    .personaTitle h3,.smTitle h3,.mockupTitle h3{
+    .personaTitle h3,.smTitle h3,
+    .mockupTitle h3,.userStoryTitle h3{
         font-size: 20px;
     }
     .surveyTitle{
@@ -714,7 +833,8 @@ img{
         font-size: 20px;
         padding: 20px 0;
     }
-    .survey, .persona, .mockup {
+    .survey,.persona,.mockup,
+    .userStory,.interactive {
         overflow: unset;
         width: 80%;
         margin: auto;
@@ -737,11 +857,11 @@ img{
     .svCount h4{
         font-size: 16px;
     }
-    .personaTitle {
+    .personaTitle,.interactiveTitle {
         width: 70%;
         padding: 20px 0 50px;
     }
-    .personaReel {
+    .personaReel,.userStoryReel {
         padding: 20px 0;
         width: unset;
         display: flex;
@@ -800,28 +920,37 @@ img{
         width: 40%;
         margin: 0 0 0 55%;
     }
-    .kidImg{
+    .kidImg,.snackImg{
+        height: unset;
         text-align: center;
-        padding: 130px 0;
+        padding: unset;
+        padding-bottom: 28%;
         width: 100%;
-        background-color: #fff;
     }
-    .kidImg img{
+    .kidImg img,.snackImg img{
         width: 50%;
+        top: -190px;
+        left: 0;
+        right: 0;
+        margin: auto;
     }
-    .kidAnalysis {
+    .kidAnalysis,.snackUser{
         padding: 20px 0;
     }
-    .kaTitle {
+    .kaTitle,.suTitle,.ssTitle,.flowTitle,.ucTitle {
         width: 80%;
     }
-    .kaTitle h2{
+    .kaTitle h2,.suTitle h2,
+    .flowTitle h2,.ucTitle h2,
+    .ssTitle h2,.dpTitle h2,
+    .userStoryTitle h2{
         font-size: 24px;
     }
 
-    .kaTitle h3 {
+    .kaTitle h3,.suTitle h3,
+    .flowTitle h3,.ssTitle h3 {
         padding: 40px 0 90px;
-        font-size: 18px;
+        font-size: 20px;
         width: 60%;
         margin: auto;
     }
@@ -832,9 +961,6 @@ img{
     .kidGoal{
         background-position: top left;
         margin: 120px auto 100px;
-    }
-    .dpTitle h2{
-        font-size: 24px;
     }
     .dpColor,.dpFont{
         display: flex;
@@ -878,5 +1004,82 @@ img{
     }
     .interfaceTitle{
         padding: 50px 0;
+    }
+    .goKidBtn a,.goSnackBtn a{
+        width: 350px;
+        margin: 80px auto;
+        padding: 24px 0;
+        letter-spacing: 2px;
+        font-size: 24px;
+        transition: .4s;
+    }
+    .goKidBtn a:hover,.goSnackBtn a:hover{
+        background-color: #0f0f0f;
+        color: #fff;
+    }
+    .snackGoal{
+        background-position: top left;
+        margin: 120px auto 100px;
+    }
+    .suTitle h3,.ssTitle h3,
+    .flowTitle h3{
+        padding: 40px 0 60px;
+    }
+    .suImg{
+        width: 70%;
+        margin: auto;
+    }
+    .snackSitemap {
+        padding: 120px 0;
+    }
+    .flowReel {
+        width: 70%;
+        margin: auto;
+        justify-content: space-between;
+    }
+    .flowImg {
+        margin: unset;
+    }
+    .fi1{
+        width: 40%
+    }
+    .fi2{
+        width: 55%
+    }
+    .useCase {
+        padding: 120px 0;
+    }
+    .ucCont {
+        width: 70%;
+    }
+    .ucDetail {
+        padding: 40px 0;
+        width: 70%;
+        margin: auto
+    }
+    .ucDetail h3{
+        font-size: 20px;
+        text-align: center;
+    }
+    .userStoryTitle{
+        width: 50%;
+    }
+    .userStoryTitle h3{
+        padding: 40px 0 30px;
+    }
+    .interactiveTitle h2 {
+        padding: 20px 0 0;
+        font-size: 24px;
+    }
+    .iaReel {
+        width: 90%;
+        justify-content: space-between;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    .iaItem {
+        width: 28%;
+        margin: unset;
+        padding-bottom: 80px;
     }
 }
